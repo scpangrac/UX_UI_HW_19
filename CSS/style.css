@@ -1,0 +1,182 @@
+/* Style Guide */
+h1 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 36pt;
+    font-weight: 200;
+}
+h2 {
+    font-family: 'Spectral', serif;
+    font-size: 18pt;
+    font-weight: 200;
+}
+h3 {
+    font-family: 'Spectral', serif;
+    font-size: 16pt;
+    font-weight: 200;
+}
+p {
+    font-family: 'Karla', sans-serif;
+}
+button {
+    font-family: 'Spectral', serif;
+    font-size: 11pt;
+    font-weight: 200;
+}
+sup {
+    font-size: 10pt;
+}
+
+/* Hero Image */
+section.heroImg {
+    height: 600px;
+    width: 80%;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+div.content {
+    padding: 5%;
+}
+div.swimg {
+    padding: 5%;
+}
+img.swimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+/* Navigation */
+header.navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(135, 136, 136);
+    align-items: center;
+}
+div.nav-left {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+nav.nav-right {
+    float: right;
+    width: 50%;
+}
+img.swlogo {
+    width: 30px;
+    height: auto;
+    padding: 1%;
+    float: right;
+}
+div.logo {
+    width: 8%;
+    padding: 1%;
+    margin: auto;
+}
+div.name {
+    width: 86%;
+    padding: 2%;
+    text-align: left;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 18pt;
+    font-weight: 200;
+}
+ul.nav {
+    width: 98%;
+    padding: 1%;
+    margin: auto;
+    list-style-type: none;
+    align-items: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+li.inline-block {
+    width: 110px;
+    height: 20px;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Spectral', serif;
+    font-size: 11pt;
+    font-weight: 200;
+}
+/* About Me */
+section.AboutMe {
+    height: 600px;
+    width: 100%;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+div.AboutMeContent {
+    padding: 5%;
+}
+div.AboutImg {
+    padding: 5%;
+}
+img.LatteArt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;  
+}
+
+/* My Skills */
+section.MySkills {
+    height: 600px;
+    width: 100%;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+div.MySkillsContent {
+    padding: 5%;
+}
+div.MySkillsImg {
+    padding: 5%;
+}
+img.Figma {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;   
+}
+/* Footer */
+footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+}
+img.swlogofoot {
+    width: 30px;
+    height: auto;
+    padding: 1%;
+}
+div.button {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+}
