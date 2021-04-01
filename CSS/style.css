@@ -79,6 +79,14 @@ img.swimg{
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    text-align: center;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: left;
   }
   
   /* The Close Button */
